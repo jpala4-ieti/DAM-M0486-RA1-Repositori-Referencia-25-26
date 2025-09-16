@@ -32,11 +32,18 @@ Per fer anar classes específiques amb main:
 ./run.sh com.project.EscripturaDadesPrimitives
 ```
 
+Per executar sense usar script propi, directament amb maven:
+```bash
+mvn exec:java "-Dexec.mainClass=com.project.ExempleNIO"
+```
+
 ### Ordre recomanat d'estudi:
 
 ```
     GestioArxius.java
 
+    ExempleNIO.java
+    
     EscripturaArxiuWriter.java
     LecturaArxiuScanner.java
 
