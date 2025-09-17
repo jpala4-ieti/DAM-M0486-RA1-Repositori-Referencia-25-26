@@ -3,9 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>project-name</artifactId>
-    <version>1.0.0</version>
+    <!-- Identificador únic del grup o organització que desenvolupa el projecte -->
+    <groupId>com.project</groupId>
+    <!-- Nom únic del projecte dins del grup, identificador de l'artefacte -->
+    <artifactId>ams2-m0486-pr11-repo-ref</artifactId>
+    <!-- Versió actual de l'artefacte que s'està desenvolupant -->
+    <version>1.0.1</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
