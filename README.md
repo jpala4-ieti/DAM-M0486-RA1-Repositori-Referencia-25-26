@@ -14,6 +14,7 @@ Cal el 'Maven' per compilar el projecte
 ```bash
 mvn clean
 mvn compile
+mvn clean compile test package
 ```
 
 Per executar el projecte a Windows cal
@@ -36,6 +37,13 @@ Per executar sense usar script propi, directament amb maven:
 ```bash
 mvn exec:java "-Dexec.mainClass=com.project.ExempleNIO"
 ```
+
+Per executar, un cop generat l'artefacte .jar
+```bash
+java -cp ./target/ams2-m0486-pr11-repo-ref-1.0.1.jar com.project.ExempleNIO
+```
+
+
 
 ### Ordre recomanat d'estudi:
 
