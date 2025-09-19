@@ -1,4 +1,7 @@
-# Exemple de guardar dades a arxius #
+
+# MP0486-RA1 - Exemple de guardat de dades a arxius #
+
+[![Java CI with Maven](https://github.com/jpala4-ieti/DAM-M0486-RA1-Repositori-Referencia-25-26/actions/workflows/maven.yml/badge.svg)](https://github.com/jpala4-ieti/DAM-M0486-RA1-Repositori-Referencia-25-26/actions/workflows/maven.yml)
 
 En aquest projecte hi ha diversos exemples de com guardar dades en Java, cap a arxius de text, binaris, XML, CSV i objectes serialitzats
 
