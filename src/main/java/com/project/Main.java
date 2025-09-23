@@ -28,9 +28,11 @@ public class Main {
             menu = menu + "\n 10) Lectura de llistes";
             menu = menu + "\n 11) Escriptura RandomAccessFile";
             menu = menu + "\n 12) Lectura RandomAccessFile";
-            menu = menu + "\n 13) Gestió CSV";
-            menu = menu + "\n 14) Gestió XML";
-            menu = menu + "\n 15) Sortir";
+            menu = menu + "\n 13) Escriptura FileChannel";
+            menu = menu + "\n 14) Lectura FileChannel";
+            menu = menu + "\n 40) Gestió CSV";
+            menu = menu + "\n 41) Gestió XML";
+            menu = menu + "\n 50) Sortir";
             System.out.println(menu);
 
             int opcio = Integer.valueOf(llegirLinia("Opció:"));
@@ -50,9 +52,11 @@ public class Main {
                     case 10: LecturaLlistes.main(args);             break;
                     case 11: LecturaRandomAccessFile.main(args);    break;
                     case 12: EscripturaRandomAccessFile.main(args); break;
-                    case 13: GestioCSV.main(args);                  break;
-                    case 14: GestioXML.main(args);                  break;
-                    case 15: running = false;                       break;
+                    case 13: LecturaFileChannel.main(args);    break;
+                    case 14: EscripturaFileChannel.main(args); break;
+                    case 40: GestioCSV.main(args);                  break;
+                    case 41: GestioXML.main(args);                  break;
+                    case 50: running = false;                       break;
                     default: break;
                 }
             } catch (Exception e) {
